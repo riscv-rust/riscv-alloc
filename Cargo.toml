@@ -1,0 +1,10 @@
+[package]
+name = "riscv-alloc"
+version = "0.0.1"
+authors = ["David Craven <david@craven.ch>"]
+
+[dependencies.riscv]
+path = "../riscv"
+
+[dependencies.linked_list_allocator]
+git = "https://github.com/phil-opp/linked-list-allocator.git"
